@@ -5,7 +5,7 @@ while True:
     c=int(input())
     if c==1:
         print("Enter the element to be inserted:")
-        l=int(input())
+        l=input()
         stack.append(l)
         print(" the element in the stack  are",stack) 
     elif c==2:
