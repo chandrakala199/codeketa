@@ -6,7 +6,7 @@ while True:
     if c==1:
         print("Enter the element to be inserted:")
         l=int(input())
-        queue.append(1)
+        queue.append(l)
         print(" the element in the queue  are",) 
     elif c==2:
         if queue ==[]:
